@@ -5,6 +5,14 @@ import './App.css';
 // const welcome = "Welcome to React"
 
 class App extends Component {
+  state = {
+    toggle1: true
+  }
+  toggle1 = () => {
+    this.setState({
+      toggle1: !this.state.toggle1
+    })
+  }
   render() {
     return (
       <div className="App">
@@ -13,7 +21,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Welcome text="Welcome to using props in React"/>
+          <Welcome text="Welcome to using props in React" toggle1={this.state.toggle1}/>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -23,6 +31,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        {this.state.toggle1 &&
+          <p>This should show and hide</p>
+        }
+        <button onClick={this.toggle1}>Show / Hide</button>
       </div>
     );
   }
