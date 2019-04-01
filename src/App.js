@@ -30,8 +30,9 @@ class App extends Component {
 
 class Welcome extends Component{
   render(){
+    const{ text } = this.props;
     return(
-      <h1 className="App-title">{this.props.text}</h1>
+      <h1 className="App-title">{text}</h1>
     )
   }
 }
