@@ -6,15 +6,18 @@ import './App.css';
 
 class App extends Component {
 
-  toggle1 = () => {
-    this.setState({
-      toggle1: !this.state.toggle1
-    })
+  state = {
+    input: "Hello"
   }
 
+  updateInput = (event) => {
+    console.log(event.target.value);
+    this.setState({
+      input: event.target.value.trim()
+    })
+    }
   submit = () => {
     console.log(this.text.value);
-    console.log(this.email.value);
   }
   render() {
     return (
@@ -33,8 +36,9 @@ class App extends Component {
           >
             Learn React
           </a>
+            <h3>{this.state.input}</h3>
+            <input type="text" onChange={this.updateInput} value={this.state.input} />
             <input type="text" ref={(input) =>this.text = input}/>
-            <input type="email" ref={(input) =>this.email = input}/>
            <button onClick={this.submit}>Show value</button>
         </header>
       </div>
