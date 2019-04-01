@@ -6,7 +6,8 @@ import Movies from './Movies';
 const movies = [
   {
     id:1,
-    title: 'Start Wars'
+    title: 'Start Wars',
+    desc: 'A space Movie'
   },
   {
     id:2,
@@ -68,7 +69,7 @@ class App extends Component {
               <Movies key= {movie.id} movie={movie}/>
           ))} */}
 
-          {movies.map(movie => <Movies key= {movie.id} movie={movie}/>)}
+          {movies.map(movie => <Movies key= {movie.id} movie={movie} desc={movie.desc}/>)}
         </header>
       </div>
     );
