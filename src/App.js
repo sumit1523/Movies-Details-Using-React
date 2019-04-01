@@ -5,6 +5,18 @@ import './App.css';
 // const welcome = "Welcome to React"
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    console.log("constructor");
+  }
+  componentWillMount(){
+    console.log("Will Mount");
+  }
+  componentDidMount(){
+    console.log("Mounted");
+  }
+
   state = {
     toggle1: true
   }
