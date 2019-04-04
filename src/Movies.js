@@ -1,15 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Movies=(props)=> (  
+const POSTER_PATH = 'http://image.tmdb.org/t/p/w154';
+
+const Movies=({movie})=> (  
    <div>
-        <h6>{props.movie.title}</h6>
+        <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title}/>
     </div>
 );
 export default Movies;
-
-Movies.propTypes = {
-    movie: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-    }).isRequired,
-}
