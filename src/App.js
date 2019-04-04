@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -18,17 +18,12 @@ const App = ()=> (
         <Link to ="/">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
-          <Switch>
+        </header>
+        <Switch>
           <Route exact path="/" component={MoviesList}/>
           <Route path="/:id" component={MovieDetail}/>
-
-          </Switch>
-        </header>
+        </Switch>
       </div>
     </Router>
 );
 export default App;
-
-const Test = ({match})=> (
-  <h2>{match.params.id}</h2>
-);
