@@ -4,7 +4,8 @@ import styled from 'styled-components';
 class MoviesList extends PureComponent {
   
   state = {
-    movies: []
+    movies: [],
+    isloading:true
   }
 
   async componentDidMount(){
@@ -12,7 +13,8 @@ class MoviesList extends PureComponent {
       const res = await fetch('https://api.themoviedb.org/3/discover/movie?api_key=28ac7a07c958eb21e3e81a4bc9671dd3&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1');
       const movies = await res.json();
       this.setState({
-        movies: movies.results
+        movies: movies.results,
+        isloading:false
       })
     } catch(e){
       console.log(e);
@@ -20,9 +22,12 @@ class MoviesList extends PureComponent {
   }
   render() {
     return (
+      <div>
+      {this.state.isloading &&<div>loading ....</div>}
         <MovieGrid>
           {this.state.movies.map(movie => <Movies key= {movie.id} movie={movie}/>)}
         </MovieGrid>
+      </div> 
     );
   }
 }
