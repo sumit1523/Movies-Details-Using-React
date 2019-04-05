@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sumit1523/Movies-Details-Using-React/static/css/main.8d54baed.chunk.css"
   },
   {
-    "revision": "8ac36a0a446f831b19c51a32efb83545",
+    "revision": "c5591d7ee3b6289b7ff745ed0c077850",
     "url": "/sumit1523/Movies-Details-Using-React/index.html"
   }
 ];
