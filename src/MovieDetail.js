@@ -49,7 +49,7 @@ class MovieDetail extends Component {
                     {this.state.movie.title ? (
                         <h4>Hello</h4>
                     ):(
-                        <h1>Hi</h1>
+                        <h1> </h1>
                     )}
 
                     <h1>{movie.title}</h1>
