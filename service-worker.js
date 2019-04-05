@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sumit1523/Movies-Details-Using-React/precache-manifest.5862c088824da2e717a997508bda21d8.js"
+  "/Movies-Details-Using-React/precache-manifest.b550617a6332cffaf5db494249c22ebc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sumit1523/Movies-Details-Using-React/index.html", {
+workbox.routing.registerNavigationRoute("/Movies-Details-Using-React/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

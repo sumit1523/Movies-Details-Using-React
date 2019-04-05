@@ -1,14 +1,14 @@
 {
-  "main.css": "/sumit1523/Movies-Details-Using-React/static/css/main.8d54baed.chunk.css",
-  "main.js": "/sumit1523/Movies-Details-Using-React/static/js/main.18c0b921.chunk.js",
-  "main.js.map": "/sumit1523/Movies-Details-Using-React/static/js/main.18c0b921.chunk.js.map",
-  "runtime~main.js": "/sumit1523/Movies-Details-Using-React/static/js/runtime~main.7008e4d5.js",
-  "runtime~main.js.map": "/sumit1523/Movies-Details-Using-React/static/js/runtime~main.7008e4d5.js.map",
-  "static/js/2.838a94a8.chunk.js": "/sumit1523/Movies-Details-Using-React/static/js/2.838a94a8.chunk.js",
-  "static/js/2.838a94a8.chunk.js.map": "/sumit1523/Movies-Details-Using-React/static/js/2.838a94a8.chunk.js.map",
-  "index.html": "/sumit1523/Movies-Details-Using-React/index.html",
-  "precache-manifest.5862c088824da2e717a997508bda21d8.js": "/sumit1523/Movies-Details-Using-React/precache-manifest.5862c088824da2e717a997508bda21d8.js",
-  "service-worker.js": "/sumit1523/Movies-Details-Using-React/service-worker.js",
-  "static/css/main.8d54baed.chunk.css.map": "/sumit1523/Movies-Details-Using-React/static/css/main.8d54baed.chunk.css.map",
-  "static/media/logo.svg": "/sumit1523/Movies-Details-Using-React/static/media/logo.5d5d9eef.svg"
+  "main.css": "/Movies-Details-Using-React/static/css/main.8d54baed.chunk.css",
+  "main.js": "/Movies-Details-Using-React/static/js/main.74553413.chunk.js",
+  "main.js.map": "/Movies-Details-Using-React/static/js/main.74553413.chunk.js.map",
+  "runtime~main.js": "/Movies-Details-Using-React/static/js/runtime~main.9cac2504.js",
+  "runtime~main.js.map": "/Movies-Details-Using-React/static/js/runtime~main.9cac2504.js.map",
+  "static/js/2.7490ed63.chunk.js": "/Movies-Details-Using-React/static/js/2.7490ed63.chunk.js",
+  "static/js/2.7490ed63.chunk.js.map": "/Movies-Details-Using-React/static/js/2.7490ed63.chunk.js.map",
+  "index.html": "/Movies-Details-Using-React/index.html",
+  "precache-manifest.b550617a6332cffaf5db494249c22ebc.js": "/Movies-Details-Using-React/precache-manifest.b550617a6332cffaf5db494249c22ebc.js",
+  "service-worker.js": "/Movies-Details-Using-React/service-worker.js",
+  "static/css/main.8d54baed.chunk.css.map": "/Movies-Details-Using-React/static/css/main.8d54baed.chunk.css.map",
+  "static/media/logo.svg": "/Movies-Details-Using-React/static/media/logo.5d5d9eef.svg"
 }
