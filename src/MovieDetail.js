@@ -10,7 +10,8 @@ const BACKDROP_PATH = 'http://image.tmdb.org/t/p/w1280';
 class MovieDetail extends Component {
   
   state = {
-    movie: {}
+    movie: {},
+    isloading:true
   }
 
   async componentDidMount(){
@@ -19,6 +20,7 @@ class MovieDetail extends Component {
       const movie = await res.json();
       this.setState({
         movie,
+        isloading:false
       })
     } catch(e){
       console.log(e);
@@ -35,6 +37,8 @@ class MovieDetail extends Component {
     //       );
     //   }
     return (
+        <div>
+        {this.state.isloading &&<div>loading ....</div>}
         <MovieWrapper backdrop= {`${BACKDROP_PATH}${movie.backdrop_path}`}>
             <MovieInfo>
             <Overdrive id={movie.id}>
@@ -54,6 +58,7 @@ class MovieDetail extends Component {
                 </div>
             </MovieInfo>
         </MovieWrapper>
+        </div>
     );
   }
 }
