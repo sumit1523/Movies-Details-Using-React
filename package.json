@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sumit1523/Movies-Details-Using-React",
+  "homepage": "https://sumit1523.github.io/Movies-Details-Using-React",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
