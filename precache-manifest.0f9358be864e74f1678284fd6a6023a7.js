@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/Movies-Details-Using-React/static/js/runtime~main.9cac2504.js"
   },
   {
-    "revision": "77504d9da9e80f1ad65b",
-    "url": "/Movies-Details-Using-React/static/js/main.74553413.chunk.js"
+    "revision": "0dd1ab1e85af045db831",
+    "url": "/Movies-Details-Using-React/static/js/main.928efe7f.chunk.js"
   },
   {
-    "revision": "6b06656c8bc6518a98dd",
-    "url": "/Movies-Details-Using-React/static/js/2.7490ed63.chunk.js"
+    "revision": "5f8ca0e2890ced48eceb",
+    "url": "/Movies-Details-Using-React/static/js/2.2e402d49.chunk.js"
   },
   {
-    "revision": "77504d9da9e80f1ad65b",
+    "revision": "0dd1ab1e85af045db831",
     "url": "/Movies-Details-Using-React/static/css/main.8d54baed.chunk.css"
   },
   {
-    "revision": "470fe818ef19ccfa849115a174923998",
+    "revision": "b228eae7061ddd19320df7ec6c77abe5",
     "url": "/Movies-Details-Using-React/index.html"
   }
 ];
